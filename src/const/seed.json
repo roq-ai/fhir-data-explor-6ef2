@@ -1,0 +1,2722 @@
+[
+  {
+    "patient": [
+      {
+        "id": "62e2aa90-c169-484b-8c0e-86a1314aff6e",
+        "first_name": "Emily",
+        "last_name": "Anderson",
+        "dob": "2023-09-03T21:23:06.577Z",
+        "gender": "Female",
+        "address": "123 Main St",
+        "phone": "123-456-7890",
+        "created_at": "2023-09-03T19:32:19.108Z",
+        "updated_at": "2023-09-04T12:02:02.548Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "bb93c9d7-de98-4aff-bb2e-0f5018ed3f2f",
+        "first_name": "Daniel",
+        "last_name": "Clark",
+        "dob": "2023-09-04T05:36:40.026Z",
+        "gender": "Male",
+        "address": "456 Elm St",
+        "phone": "987-654-3210",
+        "created_at": "2023-09-03T14:36:03.152Z",
+        "updated_at": "2023-09-03T15:10:05.793Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "422b309c-af48-4051-b425-c52e3ad7bad6",
+        "first_name": "Olivia",
+        "last_name": "Taylor",
+        "dob": "2023-09-04T09:37:59.171Z",
+        "gender": "Female",
+        "address": "789 Oak St",
+        "phone": "456-789-1230",
+        "created_at": "2023-09-03T18:35:54.502Z",
+        "updated_at": "2023-09-04T03:59:41.073Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "8a99985e-99a9-4c34-a142-34d580fab2ea",
+        "first_name": "Jacob",
+        "last_name": "Roberts",
+        "dob": "2023-09-04T02:08:06.138Z",
+        "gender": "Male",
+        "address": "321 Pine St",
+        "phone": "321-654-9870",
+        "created_at": "2023-09-04T03:17:04.234Z",
+        "updated_at": "2023-09-04T10:19:00.174Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "72fcac2a-317b-4a0a-8c84-a41567696582",
+        "first_name": "Sophia",
+        "last_name": "Walker",
+        "dob": "2023-09-04T02:07:49.943Z",
+        "gender": "Female",
+        "address": "654 Maple St",
+        "phone": "789-123-4560",
+        "created_at": "2023-09-03T17:50:04.748Z",
+        "updated_at": "2023-09-04T01:12:26.016Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "observation": [
+      {
+        "id": "819bf7cc-1815-4b58-a2fa-b7eff7cb9e4a",
+        "type": "Blood Pressure",
+        "result": "120/80 mmHg",
+        "date": "2023-09-04T02:37:07.063Z",
+        "created_at": "2023-09-04T09:09:01.704Z",
+        "updated_at": "2023-09-04T08:33:32.905Z",
+        "patient_id": "72fcac2a-317b-4a0a-8c84-a41567696582",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "88fca951-2da5-4175-b2a2-a2bb507a7ddc",
+        "type": "Temperature",
+        "result": "98.6°F",
+        "date": "2023-09-03T16:49:31.715Z",
+        "created_at": "2023-09-03T18:51:49.775Z",
+        "updated_at": "2023-09-04T12:00:53.463Z",
+        "patient_id": "8a99985e-99a9-4c34-a142-34d580fab2ea",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "da18d9ff-f962-439b-9efd-b44c3a4311e2",
+        "type": "Heart Rate",
+        "result": "70 bpm",
+        "date": "2023-09-03T22:32:19.299Z",
+        "created_at": "2023-09-03T13:32:40.810Z",
+        "updated_at": "2023-09-03T22:41:57.454Z",
+        "patient_id": "62e2aa90-c169-484b-8c0e-86a1314aff6e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ffd97762-cbb8-4b75-b080-e76d8bf03fdf",
+        "type": "Cholesterol Level",
+        "result": "180 mg/dL",
+        "date": "2023-09-04T02:01:11.748Z",
+        "created_at": "2023-09-04T00:53:32.060Z",
+        "updated_at": "2023-09-04T12:27:16.841Z",
+        "patient_id": "422b309c-af48-4051-b425-c52e3ad7bad6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a7c1ad7c-a070-433b-b18a-476971ef5c05",
+        "type": "Blood Sugar",
+        "result": "100 mg/dL",
+        "date": "2023-09-03T23:33:44.822Z",
+        "created_at": "2023-09-03T17:24:51.389Z",
+        "updated_at": "2023-09-03T16:40:27.594Z",
+        "patient_id": "422b309c-af48-4051-b425-c52e3ad7bad6",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "medication": [
+      {
+        "id": "9a9b0292-6c98-4ec7-9563-76674f8734ed",
+        "name": "Aspirin",
+        "dosage": "500 mg",
+        "instructions": "Take once daily",
+        "dispensing_details": "30 tablets",
+        "created_at": "2023-09-04T05:15:51.566Z",
+        "updated_at": "2023-09-03T23:44:02.707Z",
+        "patient_id": "422b309c-af48-4051-b425-c52e3ad7bad6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "afd825e7-dec4-4a85-9989-794c67bbe77c",
+        "name": "Ibuprofen",
+        "dosage": "200 mg",
+        "instructions": "Take every 4-6 hours",
+        "dispensing_details": "60 tablets",
+        "created_at": "2023-09-04T08:36:38.599Z",
+        "updated_at": "2023-09-03T17:08:57.877Z",
+        "patient_id": "8a99985e-99a9-4c34-a142-34d580fab2ea",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1fb31e46-e3f9-4dae-be1c-1e3ef9db3db5",
+        "name": "Acetaminophen",
+        "dosage": "650 mg",
+        "instructions": "Take as needed",
+        "dispensing_details": "90 tablets",
+        "created_at": "2023-09-04T02:24:58.241Z",
+        "updated_at": "2023-09-03T23:51:35.463Z",
+        "patient_id": "422b309c-af48-4051-b425-c52e3ad7bad6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b7a418c4-dc13-4463-b650-79195ca0365d",
+        "name": "Lisinopril",
+        "dosage": "10 mg",
+        "instructions": "Take with food",
+        "dispensing_details": "1 bottle",
+        "created_at": "2023-09-03T22:26:46.548Z",
+        "updated_at": "2023-09-04T12:35:37.035Z",
+        "patient_id": "8a99985e-99a9-4c34-a142-34d580fab2ea",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "df991a95-3300-4587-bf5d-4b435e159d8e",
+        "name": "Simvastatin",
+        "dosage": "20 mg",
+        "instructions": "Take on an empty stomach",
+        "dispensing_details": "2 bottles",
+        "created_at": "2023-09-04T03:35:29.296Z",
+        "updated_at": "2023-09-03T21:07:27.951Z",
+        "patient_id": "72fcac2a-317b-4a0a-8c84-a41567696582",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "encounter": [
+      {
+        "id": "77c2fc85-8f79-4bcb-b699-d5064ee9a22f",
+        "date": "2023-09-04T01:44:05.878Z",
+        "type": "Routine Check-up",
+        "description": "Annual physical examination",
+        "created_at": "2023-09-03T19:33:59.317Z",
+        "updated_at": "2023-09-04T09:43:49.916Z",
+        "patient_id": "bb93c9d7-de98-4aff-bb2e-0f5018ed3f2f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f1d933c2-dcff-4bae-9f13-035fa8334d85",
+        "date": "2023-09-03T15:31:52.731Z",
+        "type": "Emergency Visit",
+        "description": "Severe injury",
+        "created_at": "2023-09-04T01:19:05.304Z",
+        "updated_at": "2023-09-04T00:04:31.576Z",
+        "patient_id": "422b309c-af48-4051-b425-c52e3ad7bad6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3a11d8c3-7471-4c9e-8f9f-778585ed25e0",
+        "date": "2023-09-04T11:33:06.982Z",
+        "type": "Follow-up Appointment",
+        "description": "Post-surgery follow-up",
+        "created_at": "2023-09-03T15:32:21.360Z",
+        "updated_at": "2023-09-04T01:16:53.567Z",
+        "patient_id": "72fcac2a-317b-4a0a-8c84-a41567696582",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6ca16d27-3c9b-47bc-bc30-b3c91b738589",
+        "date": "2023-09-03T17:42:35.345Z",
+        "type": "Specialist Consultation",
+        "description": "Cardiology consultation",
+        "created_at": "2023-09-04T05:28:08.302Z",
+        "updated_at": "2023-09-04T01:29:30.694Z",
+        "patient_id": "62e2aa90-c169-484b-8c0e-86a1314aff6e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3b4e01ab-f7a6-49b9-8965-cbe352b6890b",
+        "date": "2023-09-03T15:33:34.742Z",
+        "type": "Surgery",
+        "description": "Appendectomy",
+        "created_at": "2023-09-03T14:28:52.317Z",
+        "updated_at": "2023-09-04T02:19:24.083Z",
+        "patient_id": "bb93c9d7-de98-4aff-bb2e-0f5018ed3f2f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0e37ff2d-1e33-4bcb-9fd0-1480a97224bc",
+        "email": "Kody_Bartoletti@yahoo.com",
+        "firstName": "Frederik",
+        "lastName": "Yost-Hansen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/884.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b33716c9-b387-4aef-8074-b77385ccdbb0",
+        "email": "Ashton43@gmail.com",
+        "firstName": "Georgianna",
+        "lastName": "Walter",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35899578",
+        "tenantId": null
+      },
+      {
+        "reference": "4b08008c-b4a6-45bd-b64c-6fab23a039f8",
+        "email": "Juvenal82@hotmail.com",
+        "firstName": "Oda",
+        "lastName": "Koelpin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/338.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "020ce53c-9688-4bb9-bee7-1a0c61c0b615",
+        "email": "Madelynn95@gmail.com",
+        "firstName": "Hildegard",
+        "lastName": "Hodkiewicz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/72206444",
+        "tenantId": null
+      },
+      {
+        "reference": "21ae4994-abef-4ef0-a633-ab7621153636",
+        "email": "Laurence.Pacocha@hotmail.com",
+        "firstName": "Raul",
+        "lastName": "Bernhard",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/360.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "patient": [
+      {
+        "id": "3a6a3505-5e62-49e1-83de-07bea363f92f",
+        "first_name": "Emily",
+        "last_name": "Anderson",
+        "dob": "2023-09-03T19:23:23.545Z",
+        "gender": "Female",
+        "address": "123 Main St",
+        "phone": "555-1234",
+        "created_at": "2023-09-04T01:09:16.810Z",
+        "updated_at": "2023-09-03T16:51:03.037Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6a4288c4-e626-400d-8785-e3b26f3ada4c",
+        "first_name": "Daniel",
+        "last_name": "Clark",
+        "dob": "2023-09-03T22:35:31.795Z",
+        "gender": "Male",
+        "address": "456 Elm St",
+        "phone": "555-5678",
+        "created_at": "2023-09-03T22:20:37.683Z",
+        "updated_at": "2023-09-04T03:24:27.257Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "500b2afc-e0d1-4e14-a8b1-0910372504bb",
+        "first_name": "Olivia",
+        "last_name": "Walker",
+        "dob": "2023-09-04T07:18:50.539Z",
+        "gender": "Female",
+        "address": "789 Oak St",
+        "phone": "555-9012",
+        "created_at": "2023-09-04T09:53:16.519Z",
+        "updated_at": "2023-09-04T02:55:26.164Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "bc82e874-d068-4a39-9bab-2805e447556a",
+        "first_name": "James",
+        "last_name": "Harris",
+        "dob": "2023-09-03T13:55:58.766Z",
+        "gender": "Male",
+        "address": "321 Pine St",
+        "phone": "555-3456",
+        "created_at": "2023-09-03T13:37:34.381Z",
+        "updated_at": "2023-09-03T13:50:02.315Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f52e04f1-766d-498c-86f2-14e3433a15f2",
+        "first_name": "Sophia",
+        "last_name": "Turner",
+        "dob": "2023-09-04T05:20:07.562Z",
+        "gender": "Female",
+        "address": "654 Maple St",
+        "phone": "555-7890",
+        "created_at": "2023-09-03T19:16:06.873Z",
+        "updated_at": "2023-09-03T21:33:55.198Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "observation": [
+      {
+        "id": "ddd3bf49-83ff-48c7-8e7a-a8803da7586b",
+        "type": "Blood Pressure",
+        "result": "120/80 mmHg",
+        "date": "2023-09-03T16:42:38.862Z",
+        "created_at": "2023-09-03T17:22:30.625Z",
+        "updated_at": "2023-09-03T17:17:43.681Z",
+        "patient_id": "6a4288c4-e626-400d-8785-e3b26f3ada4c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "17c1c5df-a50f-4277-90f2-2314f809e19c",
+        "type": "Temperature",
+        "result": "98.6°F",
+        "date": "2023-09-03T19:05:08.495Z",
+        "created_at": "2023-09-03T17:41:45.653Z",
+        "updated_at": "2023-09-04T06:50:58.341Z",
+        "patient_id": "f52e04f1-766d-498c-86f2-14e3433a15f2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c0711b88-8779-49b2-8858-6c974dbbdc62",
+        "type": "Heart Rate",
+        "result": "72 bpm",
+        "date": "2023-09-03T14:00:32.016Z",
+        "created_at": "2023-09-04T10:55:38.732Z",
+        "updated_at": "2023-09-04T05:26:12.671Z",
+        "patient_id": "500b2afc-e0d1-4e14-a8b1-0910372504bb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a8493e98-6064-4dbb-9ace-50bd86f8b2d5",
+        "type": "Cholesterol",
+        "result": "180 mg/dL",
+        "date": "2023-09-04T12:52:27.054Z",
+        "created_at": "2023-09-04T03:16:42.893Z",
+        "updated_at": "2023-09-03T20:12:50.867Z",
+        "patient_id": "f52e04f1-766d-498c-86f2-14e3433a15f2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "012f64df-081f-4489-93b5-a2df41aceeca",
+        "type": "Blood Sugar",
+        "result": "110 mg/dL",
+        "date": "2023-09-04T10:53:46.875Z",
+        "created_at": "2023-09-04T07:24:03.162Z",
+        "updated_at": "2023-09-03T20:24:09.296Z",
+        "patient_id": "3a6a3505-5e62-49e1-83de-07bea363f92f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "medication": [
+      {
+        "id": "b82ff548-f347-4335-bbaa-214f9d9ea655",
+        "name": "Aspirin",
+        "dosage": "100 mg",
+        "instructions": "Take once daily",
+        "dispensing_details": "30 tablets",
+        "created_at": "2023-09-03T13:42:34.608Z",
+        "updated_at": "2023-09-04T12:11:05.049Z",
+        "patient_id": "bc82e874-d068-4a39-9bab-2805e447556a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eb0454b2-d57d-4777-8822-d16b760cd51b",
+        "name": "Ibuprofen",
+        "dosage": "200 mg",
+        "instructions": "Take every 4 hours",
+        "dispensing_details": "60 tablets",
+        "created_at": "2023-09-03T14:47:13.392Z",
+        "updated_at": "2023-09-04T05:16:50.332Z",
+        "patient_id": "3a6a3505-5e62-49e1-83de-07bea363f92f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "917a3a56-967a-4868-9b2a-b056d946f7be",
+        "name": "Acetaminophen",
+        "dosage": "500 mg",
+        "instructions": "Take with food",
+        "dispensing_details": "90 tablets",
+        "created_at": "2023-09-04T03:56:39.531Z",
+        "updated_at": "2023-09-04T03:35:44.672Z",
+        "patient_id": "3a6a3505-5e62-49e1-83de-07bea363f92f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9d3e721a-a5c0-40e6-9965-f4a011f87fb1",
+        "name": "Lisinopril",
+        "dosage": "10 mg",
+        "instructions": "Take on an empty stomach",
+        "dispensing_details": "120 tablets",
+        "created_at": "2023-09-04T06:52:29.113Z",
+        "updated_at": "2023-09-03T20:31:18.843Z",
+        "patient_id": "bc82e874-d068-4a39-9bab-2805e447556a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aa8f7473-5229-4fa3-8c16-35e3bff14ab9",
+        "name": "Simvastatin",
+        "dosage": "20 mg",
+        "instructions": "Take before bedtime",
+        "dispensing_details": "180 tablets",
+        "created_at": "2023-09-03T16:51:59.573Z",
+        "updated_at": "2023-09-04T05:46:50.822Z",
+        "patient_id": "f52e04f1-766d-498c-86f2-14e3433a15f2",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "encounter": [
+      {
+        "id": "f0224b9d-465f-41c7-ab66-853837a807ff",
+        "date": "2023-09-03T20:58:22.462Z",
+        "type": "Consultation",
+        "description": "Routine check-up",
+        "created_at": "2023-09-04T07:01:57.666Z",
+        "updated_at": "2023-09-03T14:29:07.860Z",
+        "patient_id": "500b2afc-e0d1-4e14-a8b1-0910372504bb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6efd3139-b2f4-4733-86e5-a7bb3bf249d5",
+        "date": "2023-09-03T18:32:35.407Z",
+        "type": "Follow-up",
+        "description": "Review test results",
+        "created_at": "2023-09-03T15:09:10.670Z",
+        "updated_at": "2023-09-04T03:19:27.623Z",
+        "patient_id": "6a4288c4-e626-400d-8785-e3b26f3ada4c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c57f0e14-9ca6-43fe-9c02-ebe0f271a232",
+        "date": "2023-09-04T12:23:22.290Z",
+        "type": "Procedure",
+        "description": "Surgical operation",
+        "created_at": "2023-09-04T05:23:23.011Z",
+        "updated_at": "2023-09-04T06:19:02.200Z",
+        "patient_id": "6a4288c4-e626-400d-8785-e3b26f3ada4c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fcf9e8ec-3486-4309-b9a3-f8b689a475bc",
+        "date": "2023-09-03T22:49:08.677Z",
+        "type": "Emergency",
+        "description": "Accident injury",
+        "created_at": "2023-09-04T08:09:16.668Z",
+        "updated_at": "2023-09-04T10:52:58.530Z",
+        "patient_id": "6a4288c4-e626-400d-8785-e3b26f3ada4c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b5555d5b-0b0f-41a2-92ee-dbc81f709b79",
+        "date": "2023-09-03T20:23:39.984Z",
+        "type": "Hospitalization",
+        "description": "Inpatient stay",
+        "created_at": "2023-09-03T16:42:31.150Z",
+        "updated_at": "2023-09-04T12:05:17.771Z",
+        "patient_id": "bc82e874-d068-4a39-9bab-2805e447556a",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "75054a35-e52e-4250-b423-ffe484a5e3d4",
+        "email": "Liam_Stehr-Koepp21@hotmail.com",
+        "firstName": "Stephanie",
+        "lastName": "Funk",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16301256",
+        "tenantId": null
+      },
+      {
+        "reference": "b75dcac0-f98a-4f99-96a0-3ac01e96e79f",
+        "email": "Fredy.Schumm81@yahoo.com",
+        "firstName": "Tressa",
+        "lastName": "Wintheiser-Schmeler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/76161247",
+        "tenantId": null
+      },
+      {
+        "reference": "0fbfc1f1-77be-4dbc-add0-86cd9e883627",
+        "email": "Maxine_MacGyver2@yahoo.com",
+        "firstName": "Elenor",
+        "lastName": "DuBuque",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/133.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3a110552-c771-45a0-be2d-5e33385f3a3d",
+        "email": "Loma_Yost@hotmail.com",
+        "firstName": "Nathan",
+        "lastName": "Kihn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/475.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "08648bf5-8c3e-4037-b868-8b9dd85573e3",
+        "email": "Davin65@yahoo.com",
+        "firstName": "Fritz",
+        "lastName": "White",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/177.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "patient": [
+      {
+        "id": "719bab3d-1f9f-43d6-b317-ec919004af0a",
+        "first_name": "Emily",
+        "last_name": "Anderson",
+        "dob": "2023-09-04T12:47:07.731Z",
+        "gender": "Female",
+        "address": "123 Main St",
+        "phone": "555-1234",
+        "created_at": "2023-09-04T12:21:21.669Z",
+        "updated_at": "2023-09-04T06:39:40.261Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d34c96ab-bbbe-4c6b-bb00-eefc1ca64c69",
+        "first_name": "Daniel",
+        "last_name": "Clark",
+        "dob": "2023-09-03T22:53:25.491Z",
+        "gender": "Male",
+        "address": "456 Elm St",
+        "phone": "555-5678",
+        "created_at": "2023-09-03T22:23:36.404Z",
+        "updated_at": "2023-09-03T19:09:29.376Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "bfe4f4e9-3726-4dc1-b436-9476ee4d74dc",
+        "first_name": "Olivia",
+        "last_name": "Moore",
+        "dob": "2023-09-03T13:19:43.134Z",
+        "gender": "Female",
+        "address": "789 Oak St",
+        "phone": "555-9012",
+        "created_at": "2023-09-04T00:33:22.195Z",
+        "updated_at": "2023-09-03T17:30:11.419Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "18e6a619-2c20-4507-ae0a-fe526b2b3458",
+        "first_name": "Jacob",
+        "last_name": "Parker",
+        "dob": "2023-09-04T09:30:07.031Z",
+        "gender": "Male",
+        "address": "321 Maple St",
+        "phone": "555-3456",
+        "created_at": "2023-09-04T05:38:32.805Z",
+        "updated_at": "2023-09-04T08:29:28.075Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e55b239e-31c8-4ba3-835d-d041e9b1edd1",
+        "first_name": "Sophia",
+        "last_name": "Robinson",
+        "dob": "2023-09-03T18:30:29.825Z",
+        "gender": "Female",
+        "address": "654 Pine St",
+        "phone": "555-7890",
+        "created_at": "2023-09-03T15:04:04.534Z",
+        "updated_at": "2023-09-04T03:00:49.137Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "observation": [
+      {
+        "id": "11a64b29-9f05-4529-8ab4-bc51d610ab5b",
+        "type": "Blood pressure",
+        "result": "120/80 mmHg",
+        "date": "2023-09-04T07:56:57.353Z",
+        "created_at": "2023-09-04T12:17:07.268Z",
+        "updated_at": "2023-09-03T16:18:27.980Z",
+        "patient_id": "e55b239e-31c8-4ba3-835d-d041e9b1edd1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d13c363f-bc19-4570-8071-fd321e3661b4",
+        "type": "Temperature",
+        "result": "98.6°F",
+        "date": "2023-09-04T11:26:24.054Z",
+        "created_at": "2023-09-04T02:45:08.121Z",
+        "updated_at": "2023-09-04T09:54:10.734Z",
+        "patient_id": "719bab3d-1f9f-43d6-b317-ec919004af0a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d167acf3-cc15-453b-b10e-84c5092189ea",
+        "type": "Heart rate",
+        "result": "72 bpm",
+        "date": "2023-09-03T18:10:12.889Z",
+        "created_at": "2023-09-03T18:08:24.805Z",
+        "updated_at": "2023-09-04T05:57:24.919Z",
+        "patient_id": "719bab3d-1f9f-43d6-b317-ec919004af0a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f1d726ab-fe06-495d-88ff-b9890dc28663",
+        "type": "Cholesterol level",
+        "result": "200 mg/dL",
+        "date": "2023-09-03T17:06:16.247Z",
+        "created_at": "2023-09-03T22:17:55.825Z",
+        "updated_at": "2023-09-03T22:45:24.238Z",
+        "patient_id": "18e6a619-2c20-4507-ae0a-fe526b2b3458",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1ed1fcff-bfc5-4d0d-b48e-e1a569451722",
+        "type": "Blood sugar level",
+        "result": "110 mg/dL",
+        "date": "2023-09-04T01:01:16.933Z",
+        "created_at": "2023-09-03T21:49:39.019Z",
+        "updated_at": "2023-09-04T08:24:30.853Z",
+        "patient_id": "719bab3d-1f9f-43d6-b317-ec919004af0a",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "medication": [
+      {
+        "id": "a738c051-fb9c-4407-ad34-f2978a7e5f5f",
+        "name": "Aspirin",
+        "dosage": "100 mg",
+        "instructions": "Take once daily",
+        "dispensing_details": "30 tablets",
+        "created_at": "2023-09-04T12:18:42.993Z",
+        "updated_at": "2023-09-03T20:20:35.416Z",
+        "patient_id": "e55b239e-31c8-4ba3-835d-d041e9b1edd1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "09898425-dac1-4ee9-a4e3-601225ea6439",
+        "name": "Ibuprofen",
+        "dosage": "200 mg",
+        "instructions": "Take every 4 hours",
+        "dispensing_details": "60 capsules",
+        "created_at": "2023-09-04T10:12:28.202Z",
+        "updated_at": "2023-09-04T06:51:53.293Z",
+        "patient_id": "e55b239e-31c8-4ba3-835d-d041e9b1edd1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ae61c7c4-2f06-4174-8bc7-09e3a5a97654",
+        "name": "Acetaminophen",
+        "dosage": "500 mg",
+        "instructions": "Take with food",
+        "dispensing_details": "90 tablets",
+        "created_at": "2023-09-03T16:23:49.743Z",
+        "updated_at": "2023-09-04T07:31:57.141Z",
+        "patient_id": "d34c96ab-bbbe-4c6b-bb00-eefc1ca64c69",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1e4b2b2b-059f-41b8-aa71-4980f5d9bf77",
+        "name": "Lisinopril",
+        "dosage": "10 mg",
+        "instructions": "Take before bedtime",
+        "dispensing_details": "120 mL",
+        "created_at": "2023-09-04T09:55:59.978Z",
+        "updated_at": "2023-09-04T08:34:46.087Z",
+        "patient_id": "bfe4f4e9-3726-4dc1-b436-9476ee4d74dc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "07e9b154-4109-4c49-8e02-71cc03503394",
+        "name": "Metformin",
+        "dosage": "1000 mg",
+        "instructions": "Take with plenty of water",
+        "dispensing_details": "10 vials",
+        "created_at": "2023-09-04T11:40:35.730Z",
+        "updated_at": "2023-09-03T21:02:48.729Z",
+        "patient_id": "bfe4f4e9-3726-4dc1-b436-9476ee4d74dc",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "encounter": [
+      {
+        "id": "04c7eae5-ab31-4b7d-8386-7672759c03ad",
+        "date": "2023-09-03T21:12:32.237Z",
+        "type": "Routine check-up",
+        "description": "Annual physical examination",
+        "created_at": "2023-09-04T04:40:13.980Z",
+        "updated_at": "2023-09-04T08:16:42.520Z",
+        "patient_id": "e55b239e-31c8-4ba3-835d-d041e9b1edd1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d7be8894-03bb-4933-bacd-20d69270579a",
+        "date": "2023-09-04T09:31:45.506Z",
+        "type": "Emergency visit",
+        "description": "Chest pain",
+        "created_at": "2023-09-03T18:04:30.151Z",
+        "updated_at": "2023-09-03T19:45:37.815Z",
+        "patient_id": "d34c96ab-bbbe-4c6b-bb00-eefc1ca64c69",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "88198516-3520-4583-a375-2b08eb2271fc",
+        "date": "2023-09-03T15:03:00.320Z",
+        "type": "Follow-up appointment",
+        "description": "Post-surgery check-up",
+        "created_at": "2023-09-03T18:57:13.112Z",
+        "updated_at": "2023-09-04T08:48:13.759Z",
+        "patient_id": "e55b239e-31c8-4ba3-835d-d041e9b1edd1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c5170188-d265-4c90-ac86-872851c64382",
+        "date": "2023-09-04T09:44:28.283Z",
+        "type": "Surgery consultation",
+        "description": "Discuss treatment options",
+        "created_at": "2023-09-03T17:29:45.460Z",
+        "updated_at": "2023-09-04T10:47:58.078Z",
+        "patient_id": "e55b239e-31c8-4ba3-835d-d041e9b1edd1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f360d251-4f2b-4c00-9c7a-2c6f6a00602a",
+        "date": "2023-09-04T11:49:11.683Z",
+        "type": "Physical therapy session",
+        "description": "Rehabilitation exercises",
+        "created_at": "2023-09-03T15:33:58.242Z",
+        "updated_at": "2023-09-04T02:05:50.111Z",
+        "patient_id": "e55b239e-31c8-4ba3-835d-d041e9b1edd1",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "145edacf-0dfe-4f5e-ab51-54cd99bc1e81",
+        "email": "Ilene_Nicolas49@yahoo.com",
+        "firstName": "Darron",
+        "lastName": "Ritchie",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/839.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9b70ce42-6f3f-4d1a-a9ed-58817a26c314",
+        "email": "Lou_Hegmann@yahoo.com",
+        "firstName": "Frederick",
+        "lastName": "O'Reilly",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/901.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "08a01fa0-f25e-4be1-827b-f0837cef8020",
+        "email": "Oceane_Hyatt@hotmail.com",
+        "firstName": "Angeline",
+        "lastName": "Leffler",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/926.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9d699ec0-9d88-4c7d-8403-89682d260a76",
+        "email": "Candice_Gulgowski@gmail.com",
+        "firstName": "Lacy",
+        "lastName": "Rempel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49713222",
+        "tenantId": null
+      },
+      {
+        "reference": "26f75832-71a3-4350-9c18-a3f2e12cd2d2",
+        "email": "Reagan.Casper8@yahoo.com",
+        "firstName": "Skyla",
+        "lastName": "Towne",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89530170",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "patient": [
+      {
+        "id": "469bc158-86ee-478a-8419-9e8030b8dced",
+        "first_name": "Alice",
+        "last_name": "Johnson",
+        "dob": "2023-09-04T07:33:51.221Z",
+        "gender": "Female",
+        "address": "123 Main St",
+        "phone": "123-456-7890",
+        "created_at": "2023-09-04T04:26:51.924Z",
+        "updated_at": "2023-09-03T18:30:40.319Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e30480e4-219c-447f-9fb7-cf2d7e3dfd4d",
+        "first_name": "Bob",
+        "last_name": "Smith",
+        "dob": "2023-09-03T23:10:09.636Z",
+        "gender": "Male",
+        "address": "456 Elm St",
+        "phone": "987-654-3210",
+        "created_at": "2023-09-04T06:32:48.133Z",
+        "updated_at": "2023-09-03T15:53:16.255Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f749e408-618b-4e8b-b1f0-17ce255c8ff0",
+        "first_name": "Eva",
+        "last_name": "Brown",
+        "dob": "2023-09-04T05:54:45.061Z",
+        "gender": "Female",
+        "address": "789 Oak St",
+        "phone": "555-123-4567",
+        "created_at": "2023-09-03T20:21:51.933Z",
+        "updated_at": "2023-09-03T15:00:42.042Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "36c3497f-97ae-47a8-8d8e-a91c1346b174",
+        "first_name": "Max",
+        "last_name": "Davis",
+        "dob": "2023-09-03T15:09:57.824Z",
+        "gender": "Male",
+        "address": "321 Pine St",
+        "phone": "888-999-0000",
+        "created_at": "2023-09-03T15:15:39.211Z",
+        "updated_at": "2023-09-03T23:23:21.231Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "5412db26-c9d3-495a-94b3-7086e4eed915",
+        "first_name": "Lily",
+        "last_name": "Wilson",
+        "dob": "2023-09-03T23:45:56.558Z",
+        "gender": "Female",
+        "address": "654 Maple St",
+        "phone": "444-333-2222",
+        "created_at": "2023-09-04T01:27:27.501Z",
+        "updated_at": "2023-09-04T02:21:00.048Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "observation": [
+      {
+        "id": "af38ef97-4afd-40c8-8da1-ae258f9f4063",
+        "type": "Blood pressure",
+        "result": "120/80 mmHg",
+        "date": "2023-09-03T23:34:19.650Z",
+        "created_at": "2023-09-04T02:39:35.332Z",
+        "updated_at": "2023-09-03T14:16:09.104Z",
+        "patient_id": "f749e408-618b-4e8b-b1f0-17ce255c8ff0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3b11d925-fce8-4780-b4b7-6c2b927ec48d",
+        "type": "Temperature",
+        "result": "98.6°F",
+        "date": "2023-09-03T21:09:46.449Z",
+        "created_at": "2023-09-04T02:51:25.473Z",
+        "updated_at": "2023-09-04T10:27:21.080Z",
+        "patient_id": "f749e408-618b-4e8b-b1f0-17ce255c8ff0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "089d6da8-bf91-4d45-a691-a718ec858b3b",
+        "type": "Heart rate",
+        "result": "70 bpm",
+        "date": "2023-09-04T05:43:45.971Z",
+        "created_at": "2023-09-03T23:02:34.804Z",
+        "updated_at": "2023-09-03T17:43:15.938Z",
+        "patient_id": "36c3497f-97ae-47a8-8d8e-a91c1346b174",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dab442da-96c2-434c-8488-651d0e55a85c",
+        "type": "Cholesterol level",
+        "result": "200 mg/dL",
+        "date": "2023-09-04T04:01:00.395Z",
+        "created_at": "2023-09-04T05:44:22.871Z",
+        "updated_at": "2023-09-03T14:33:52.533Z",
+        "patient_id": "36c3497f-97ae-47a8-8d8e-a91c1346b174",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "da034ee5-c5b9-4627-9240-84f26ce2e338",
+        "type": "Blood sugar level",
+        "result": "100 mg/dL",
+        "date": "2023-09-03T15:57:20.131Z",
+        "created_at": "2023-09-04T02:11:39.591Z",
+        "updated_at": "2023-09-04T06:12:07.804Z",
+        "patient_id": "e30480e4-219c-447f-9fb7-cf2d7e3dfd4d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "medication": [
+      {
+        "id": "bf12884d-89f6-411e-9e69-4092442c8279",
+        "name": "Aspirin",
+        "dosage": "500 mg",
+        "instructions": "Take once daily",
+        "dispensing_details": "30 tablets",
+        "created_at": "2023-09-04T12:24:36.957Z",
+        "updated_at": "2023-09-04T03:05:58.786Z",
+        "patient_id": "f749e408-618b-4e8b-b1f0-17ce255c8ff0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c7db03cd-94c1-4904-b3c3-b978804e0342",
+        "name": "Ibuprofen",
+        "dosage": "200 mg",
+        "instructions": "Take every 6 hours",
+        "dispensing_details": "60 tablets",
+        "created_at": "2023-09-03T13:30:48.318Z",
+        "updated_at": "2023-09-04T08:04:11.094Z",
+        "patient_id": "e30480e4-219c-447f-9fb7-cf2d7e3dfd4d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "94812a2e-767a-4cc2-8c0e-c2d59e539ec1",
+        "name": "Paracetamol",
+        "dosage": "1000 mg",
+        "instructions": "Take with food",
+        "dispensing_details": "90 tablets",
+        "created_at": "2023-09-04T05:54:47.515Z",
+        "updated_at": "2023-09-03T14:34:04.952Z",
+        "patient_id": "f749e408-618b-4e8b-b1f0-17ce255c8ff0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7aee6370-6daa-4ecb-948f-62dede5c8781",
+        "name": "Amoxicillin",
+        "dosage": "250 mg",
+        "instructions": "Take on an empty stomach",
+        "dispensing_details": "120 tablets",
+        "created_at": "2023-09-03T13:54:50.635Z",
+        "updated_at": "2023-09-04T06:47:18.340Z",
+        "patient_id": "5412db26-c9d3-495a-94b3-7086e4eed915",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2546de7d-5303-4d65-8e35-62061b18bc88",
+        "name": "Lisinopril",
+        "dosage": "10 mg",
+        "instructions": "Take before bedtime",
+        "dispensing_details": "180 tablets",
+        "created_at": "2023-09-04T06:54:33.407Z",
+        "updated_at": "2023-09-04T02:23:32.671Z",
+        "patient_id": "36c3497f-97ae-47a8-8d8e-a91c1346b174",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "encounter": [
+      {
+        "id": "aa17289c-d7ee-4cf1-8ed6-b43748fa0460",
+        "date": "2023-09-03T14:27:57.843Z",
+        "type": "Consultation",
+        "description": "Patient complained of headache",
+        "created_at": "2023-09-04T01:04:28.321Z",
+        "updated_at": "2023-09-04T08:34:37.445Z",
+        "patient_id": "5412db26-c9d3-495a-94b3-7086e4eed915",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "30cb6504-cb5d-4ab6-a430-b642d2e24576",
+        "date": "2023-09-04T09:14:41.188Z",
+        "type": "Check-up",
+        "description": "Routine examination",
+        "created_at": "2023-09-04T09:14:32.694Z",
+        "updated_at": "2023-09-04T09:13:02.633Z",
+        "patient_id": "f749e408-618b-4e8b-b1f0-17ce255c8ff0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0f454b1d-8d1b-401e-a5cf-0cf0d2075c36",
+        "date": "2023-09-04T08:32:02.031Z",
+        "type": "Follow-up",
+        "description": "Discussing test results",
+        "created_at": "2023-09-04T11:48:07.103Z",
+        "updated_at": "2023-09-03T15:08:54.973Z",
+        "patient_id": "5412db26-c9d3-495a-94b3-7086e4eed915",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "04faa64b-8f6b-4f71-aa87-f339130024ec",
+        "date": "2023-09-03T17:30:43.638Z",
+        "type": "Emergency",
+        "description": "Patient arrived with chest pain",
+        "created_at": "2023-09-04T12:40:08.666Z",
+        "updated_at": "2023-09-04T10:59:37.108Z",
+        "patient_id": "f749e408-618b-4e8b-b1f0-17ce255c8ff0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8a97ae7c-71e3-429e-b0aa-a0c09fd2b99e",
+        "date": "2023-09-03T17:45:12.651Z",
+        "type": "Procedure",
+        "description": "Performing surgery",
+        "created_at": "2023-09-04T08:46:04.952Z",
+        "updated_at": "2023-09-03T19:31:24.568Z",
+        "patient_id": "5412db26-c9d3-495a-94b3-7086e4eed915",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "4b3368cd-0f91-490d-af51-4b642127b320",
+        "email": "Laney60@yahoo.com",
+        "firstName": "Jerrell",
+        "lastName": "Blanda",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/36641364",
+        "tenantId": null
+      },
+      {
+        "reference": "8a7bd565-09b8-45de-988d-761cfd1a0fcf",
+        "email": "Gussie.Rath73@gmail.com",
+        "firstName": "Mohammed",
+        "lastName": "Bauch-Boehm",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/99280517",
+        "tenantId": null
+      },
+      {
+        "reference": "c9b71dda-0c52-4298-9888-166bfcb55967",
+        "email": "Jarod25@yahoo.com",
+        "firstName": "Assunta",
+        "lastName": "Steuber",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54965222",
+        "tenantId": null
+      },
+      {
+        "reference": "9ed1920d-6279-4e1d-bd83-4c4bb723c1f4",
+        "email": "Shane82@yahoo.com",
+        "firstName": "Herminio",
+        "lastName": "Legros",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/67936392",
+        "tenantId": null
+      },
+      {
+        "reference": "e0d2a614-6bb9-4a63-b6be-71e5ed2fc43d",
+        "email": "Fannie88@hotmail.com",
+        "firstName": "Jeanie",
+        "lastName": "Ruecker",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/97847776",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "patient": [
+      {
+        "id": "9a010af8-c988-48ba-a6e0-12c2ca918821",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "dob": "2023-09-04T03:47:46.657Z",
+        "gender": "Female",
+        "address": "123 Main St",
+        "phone": "555-1234",
+        "created_at": "2023-09-04T10:14:16.820Z",
+        "updated_at": "2023-09-03T16:09:10.188Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "af820bef-7eb2-4228-93ec-ed8ab591ab5b",
+        "first_name": "Daniel",
+        "last_name": "Anderson",
+        "dob": "2023-09-03T17:55:35.042Z",
+        "gender": "Male",
+        "address": "456 Elm St",
+        "phone": "555-5678",
+        "created_at": "2023-09-03T20:03:34.664Z",
+        "updated_at": "2023-09-04T04:15:38.592Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "38c73abe-88bb-44b8-983c-474b77ad79f2",
+        "first_name": "Olivia",
+        "last_name": "Smith",
+        "dob": "2023-09-04T03:08:33.644Z",
+        "gender": "Female",
+        "address": "789 Oak St",
+        "phone": "555-9012",
+        "created_at": "2023-09-03T16:30:33.978Z",
+        "updated_at": "2023-09-03T20:24:20.643Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "20e2bd40-4868-4238-9698-a2ded643661b",
+        "first_name": "William",
+        "last_name": "Brown",
+        "dob": "2023-09-03T15:05:41.291Z",
+        "gender": "Male",
+        "address": "321 Pine St",
+        "phone": "555-3456",
+        "created_at": "2023-09-03T21:44:56.818Z",
+        "updated_at": "2023-09-03T23:16:41.646Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c311edbe-ce99-4910-b17c-84213ec872bc",
+        "first_name": "Sophia",
+        "last_name": "Taylor",
+        "dob": "2023-09-04T13:13:04.726Z",
+        "gender": "Female",
+        "address": "654 Maple St",
+        "phone": "555-7890",
+        "created_at": "2023-09-03T13:49:35.796Z",
+        "updated_at": "2023-09-03T18:07:17.139Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "observation": [
+      {
+        "id": "b127ab62-87fc-4161-91bd-146bdfcd8a3b",
+        "type": "Blood pressure",
+        "result": "120/80 mmHg",
+        "date": "2023-09-03T23:58:21.782Z",
+        "created_at": "2023-09-04T05:53:44.697Z",
+        "updated_at": "2023-09-03T15:19:45.620Z",
+        "patient_id": "af820bef-7eb2-4228-93ec-ed8ab591ab5b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cc1c8c1f-0a30-4cde-8ce9-32f370d5c893",
+        "type": "Heart rate",
+        "result": "70 bpm",
+        "date": "2023-09-03T19:23:47.788Z",
+        "created_at": "2023-09-04T06:51:24.790Z",
+        "updated_at": "2023-09-03T21:05:34.938Z",
+        "patient_id": "20e2bd40-4868-4238-9698-a2ded643661b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ab8f0d01-e6e8-4069-b61d-4d2bb28f74cc",
+        "type": "Temperature",
+        "result": "98.6°F",
+        "date": "2023-09-04T12:08:01.246Z",
+        "created_at": "2023-09-04T05:18:37.480Z",
+        "updated_at": "2023-09-04T06:48:39.221Z",
+        "patient_id": "af820bef-7eb2-4228-93ec-ed8ab591ab5b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "af564d46-79af-4e43-b166-1666fd8c94f0",
+        "type": "Cholesterol level",
+        "result": "200 mg/dL",
+        "date": "2023-09-03T16:09:43.100Z",
+        "created_at": "2023-09-04T00:53:05.485Z",
+        "updated_at": "2023-09-04T03:11:33.843Z",
+        "patient_id": "c311edbe-ce99-4910-b17c-84213ec872bc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5ebdb2eb-5b51-44c3-8d48-b5178c9fb63f",
+        "type": "Blood sugar level",
+        "result": "100 mg/dL",
+        "date": "2023-09-04T08:18:48.228Z",
+        "created_at": "2023-09-04T00:50:31.803Z",
+        "updated_at": "2023-09-03T20:49:36.922Z",
+        "patient_id": "20e2bd40-4868-4238-9698-a2ded643661b",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "medication": [
+      {
+        "id": "3757be90-d8dd-4b20-9f01-3d0029bde4eb",
+        "name": "Aspirin",
+        "dosage": "100 mg",
+        "instructions": "Take once daily",
+        "dispensing_details": "30 tablets",
+        "created_at": "2023-09-03T15:36:30.500Z",
+        "updated_at": "2023-09-04T13:05:12.738Z",
+        "patient_id": "20e2bd40-4868-4238-9698-a2ded643661b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c3d8f18d-c6a1-471c-8ce8-6a6eeb8c2fb4",
+        "name": "Ibuprofen",
+        "dosage": "200 mg",
+        "instructions": "Take every 6 hours",
+        "dispensing_details": "60 tablets",
+        "created_at": "2023-09-04T12:56:37.299Z",
+        "updated_at": "2023-09-04T05:01:35.719Z",
+        "patient_id": "38c73abe-88bb-44b8-983c-474b77ad79f2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2382dee0-ab7d-4e00-b4a9-383f03385f22",
+        "name": "Acetaminophen",
+        "dosage": "500 mg",
+        "instructions": "Take with food",
+        "dispensing_details": "90 tablets",
+        "created_at": "2023-09-04T10:41:28.054Z",
+        "updated_at": "2023-09-03T14:32:20.559Z",
+        "patient_id": "38c73abe-88bb-44b8-983c-474b77ad79f2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f65c79fe-9f2f-4073-8030-98a71017e149",
+        "name": "Lisinopril",
+        "dosage": "10 mg",
+        "instructions": "Take before bedtime",
+        "dispensing_details": "120 tablets",
+        "created_at": "2023-09-03T18:35:54.677Z",
+        "updated_at": "2023-09-04T12:05:49.981Z",
+        "patient_id": "9a010af8-c988-48ba-a6e0-12c2ca918821",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4a9f3d2b-e30e-4716-b433-5f9e6bdf584c",
+        "name": "Simvastatin",
+        "dosage": "20 mg",
+        "instructions": "Take on an empty stomach",
+        "dispensing_details": "180 tablets",
+        "created_at": "2023-09-03T13:57:48.970Z",
+        "updated_at": "2023-09-03T20:34:02.284Z",
+        "patient_id": "38c73abe-88bb-44b8-983c-474b77ad79f2",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "encounter": [
+      {
+        "id": "3bd6859a-ab70-4c59-8b98-293a4cbdabbb",
+        "date": "2023-09-03T19:42:12.925Z",
+        "type": "Primary care visit",
+        "description": "Routine check-up",
+        "created_at": "2023-09-04T08:45:29.099Z",
+        "updated_at": "2023-09-04T05:44:21.692Z",
+        "patient_id": "c311edbe-ce99-4910-b17c-84213ec872bc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c7c5c261-f2a5-46f9-8460-3ee622914863",
+        "date": "2023-09-04T08:01:10.436Z",
+        "type": "Specialist consultation",
+        "description": "Orthopedic consultation",
+        "created_at": "2023-09-04T09:39:17.247Z",
+        "updated_at": "2023-09-04T06:47:03.398Z",
+        "patient_id": "9a010af8-c988-48ba-a6e0-12c2ca918821",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c5394b0b-da16-4706-ab04-919c17b8f602",
+        "date": "2023-09-04T09:28:26.948Z",
+        "type": "Emergency room visit",
+        "description": "Chest pain",
+        "created_at": "2023-09-04T04:37:04.802Z",
+        "updated_at": "2023-09-03T23:45:47.753Z",
+        "patient_id": "38c73abe-88bb-44b8-983c-474b77ad79f2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1f4d8ee8-021b-4d1b-abaa-ddd48bfeb6f7",
+        "date": "2023-09-03T16:59:15.632Z",
+        "type": "Hospital admission",
+        "description": "Appendectomy",
+        "created_at": "2023-09-03T22:42:52.427Z",
+        "updated_at": "2023-09-04T09:48:31.466Z",
+        "patient_id": "af820bef-7eb2-4228-93ec-ed8ab591ab5b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4a0d03c7-e08d-4495-b49b-a76218c5975d",
+        "date": "2023-09-04T05:44:06.271Z",
+        "type": "Follow-up appointment",
+        "description": "Post-surgery follow-up",
+        "created_at": "2023-09-03T21:06:19.024Z",
+        "updated_at": "2023-09-03T15:23:42.730Z",
+        "patient_id": "c311edbe-ce99-4910-b17c-84213ec872bc",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a6ed1dbf-e039-49ad-b291-77afe601af42",
+        "email": "Tobin89@yahoo.com",
+        "firstName": "Michale",
+        "lastName": "Hickle",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/110.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "19e4ea58-15b1-45a2-a02f-dceccf36d530",
+        "email": "Taurean96@yahoo.com",
+        "firstName": "Bobbie",
+        "lastName": "Bechtelar",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/218.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2ae5962b-dd57-470f-85fb-264e88ad41d2",
+        "email": "Ettie.Kemmer40@hotmail.com",
+        "firstName": "Palma",
+        "lastName": "Schowalter",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87293542",
+        "tenantId": null
+      },
+      {
+        "reference": "410e72ed-985f-4c5c-bb32-b48384e1535d",
+        "email": "Lindsay48@hotmail.com",
+        "firstName": "Derrick",
+        "lastName": "McClure",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/876.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9332b082-1dd6-4352-bea4-9520001fcf26",
+        "email": "Brain71@gmail.com",
+        "firstName": "Bud",
+        "lastName": "Macejkovic",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/641.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "patient": [
+      {
+        "id": "e64799df-59d2-46bc-ae75-80883cfe4e90",
+        "first_name": "Emma",
+        "last_name": "Johnson",
+        "dob": "2023-09-04T12:41:56.491Z",
+        "gender": "Female",
+        "address": "123 Main St",
+        "phone": "555-1234",
+        "created_at": "2023-09-04T01:03:29.540Z",
+        "updated_at": "2023-09-04T07:13:04.158Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "700588ee-7205-48d6-af1b-16fc2c8a2253",
+        "first_name": "Liam",
+        "last_name": "Smith",
+        "dob": "2023-09-03T18:37:02.543Z",
+        "gender": "Male",
+        "address": "456 Elm St",
+        "phone": "555-5678",
+        "created_at": "2023-09-03T18:40:09.384Z",
+        "updated_at": "2023-09-04T03:58:10.677Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "eb3b6366-313f-4179-aea4-b6df6a0a7719",
+        "first_name": "Olivia",
+        "last_name": "Williams",
+        "dob": "2023-09-03T20:00:44.726Z",
+        "gender": "Female",
+        "address": "789 Oak St",
+        "phone": "555-9876",
+        "created_at": "2023-09-03T20:21:41.075Z",
+        "updated_at": "2023-09-03T21:06:03.375Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "1d733d79-b20e-4f44-a4a0-fba76b46ae76",
+        "first_name": "Noah",
+        "last_name": "Brown",
+        "dob": "2023-09-04T02:46:48.941Z",
+        "gender": "Male",
+        "address": "321 Pine St",
+        "phone": "555-4321",
+        "created_at": "2023-09-03T20:48:35.699Z",
+        "updated_at": "2023-09-04T12:22:42.710Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "cfa86e0b-f8bb-4888-a321-afd470c8bd5d",
+        "first_name": "Ava",
+        "last_name": "Jones",
+        "dob": "2023-09-04T03:29:52.752Z",
+        "gender": "Female",
+        "address": "654 Maple St",
+        "phone": "555-8765",
+        "created_at": "2023-09-04T07:51:55.066Z",
+        "updated_at": "2023-09-03T23:23:41.196Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "observation": [
+      {
+        "id": "8874fbc7-e5a2-460d-9221-4d9ec7c504f5",
+        "type": "Blood pressure",
+        "result": "120/80 mmHg",
+        "date": "2023-09-04T03:25:43.014Z",
+        "created_at": "2023-09-04T03:45:00.098Z",
+        "updated_at": "2023-09-03T19:39:09.311Z",
+        "patient_id": "eb3b6366-313f-4179-aea4-b6df6a0a7719",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4168d3ab-2381-40a4-9b58-6820b174a82d",
+        "type": "Temperature",
+        "result": "98.6°F",
+        "date": "2023-09-03T16:01:25.784Z",
+        "created_at": "2023-09-03T17:52:23.746Z",
+        "updated_at": "2023-09-03T21:39:53.953Z",
+        "patient_id": "eb3b6366-313f-4179-aea4-b6df6a0a7719",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0a973685-460c-40d8-9a37-d87344897677",
+        "type": "Heart rate",
+        "result": "72 bpm",
+        "date": "2023-09-04T06:53:47.110Z",
+        "created_at": "2023-09-04T11:28:50.863Z",
+        "updated_at": "2023-09-03T21:44:23.816Z",
+        "patient_id": "e64799df-59d2-46bc-ae75-80883cfe4e90",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eaf33003-b49c-46ff-a493-94c4602bd6f5",
+        "type": "Cholesterol level",
+        "result": "200 mg/dL",
+        "date": "2023-09-04T06:12:08.177Z",
+        "created_at": "2023-09-03T14:40:59.580Z",
+        "updated_at": "2023-09-04T08:36:17.907Z",
+        "patient_id": "700588ee-7205-48d6-af1b-16fc2c8a2253",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c974a40b-7169-43d1-92e1-4a82708f4b53",
+        "type": "Blood sugar level",
+        "result": "100 mg/dL",
+        "date": "2023-09-03T16:07:10.878Z",
+        "created_at": "2023-09-03T21:55:58.084Z",
+        "updated_at": "2023-09-04T07:32:00.227Z",
+        "patient_id": "cfa86e0b-f8bb-4888-a321-afd470c8bd5d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "medication": [
+      {
+        "id": "208833f4-e857-48fb-97fa-cefc24aec471",
+        "name": "Aspirin",
+        "dosage": "500 mg",
+        "instructions": "Take once daily",
+        "dispensing_details": "30 tablets",
+        "created_at": "2023-09-04T02:18:27.355Z",
+        "updated_at": "2023-09-03T15:06:16.703Z",
+        "patient_id": "700588ee-7205-48d6-af1b-16fc2c8a2253",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f2816a1e-8dd4-48fc-8641-5fc21a450558",
+        "name": "Ibuprofen",
+        "dosage": "200 mg",
+        "instructions": "Take every 6 hours",
+        "dispensing_details": "60 capsules",
+        "created_at": "2023-09-04T04:18:30.161Z",
+        "updated_at": "2023-09-03T22:15:02.274Z",
+        "patient_id": "1d733d79-b20e-4f44-a4a0-fba76b46ae76",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f56437ce-b1c5-4b6f-a474-3038adc996b5",
+        "name": "Acetaminophen",
+        "dosage": "1000 mg",
+        "instructions": "Take with food",
+        "dispensing_details": "90 tablets",
+        "created_at": "2023-09-03T22:12:02.051Z",
+        "updated_at": "2023-09-03T15:42:03.191Z",
+        "patient_id": "e64799df-59d2-46bc-ae75-80883cfe4e90",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "04ddb59c-2eee-4cef-9198-c5f80d1991d9",
+        "name": "Amoxicillin",
+        "dosage": "250 mg",
+        "instructions": "Take on an empty stomach",
+        "dispensing_details": "20 mL",
+        "created_at": "2023-09-04T04:20:02.636Z",
+        "updated_at": "2023-09-03T17:30:00.098Z",
+        "patient_id": "eb3b6366-313f-4179-aea4-b6df6a0a7719",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "04e27501-9d4f-4327-bb6a-14551e948eb9",
+        "name": "Lisinopril",
+        "dosage": "10 mg",
+        "instructions": "Take before bedtime",
+        "dispensing_details": "10 patches",
+        "created_at": "2023-09-03T15:35:50.627Z",
+        "updated_at": "2023-09-04T05:58:31.886Z",
+        "patient_id": "1d733d79-b20e-4f44-a4a0-fba76b46ae76",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "encounter": [
+      {
+        "id": "f404c20b-e582-48e7-9a11-4952e284e96c",
+        "date": "2023-09-04T03:01:16.201Z",
+        "type": "Routine check-up",
+        "description": "Annual physical examination",
+        "created_at": "2023-09-03T13:21:01.377Z",
+        "updated_at": "2023-09-03T22:18:48.143Z",
+        "patient_id": "1d733d79-b20e-4f44-a4a0-fba76b46ae76",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "25a816e6-3a18-439d-a1d5-dc388d7addba",
+        "date": "2023-09-03T23:16:33.596Z",
+        "type": "Emergency visit",
+        "description": "Severe injury",
+        "created_at": "2023-09-04T13:10:28.879Z",
+        "updated_at": "2023-09-04T11:50:57.926Z",
+        "patient_id": "cfa86e0b-f8bb-4888-a321-afd470c8bd5d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7d67ca67-59a1-4ab0-83eb-15f8955b54d9",
+        "date": "2023-09-03T17:39:21.228Z",
+        "type": "Follow-up appointment",
+        "description": "Post-surgery evaluation",
+        "created_at": "2023-09-04T01:55:29.081Z",
+        "updated_at": "2023-09-04T08:55:34.129Z",
+        "patient_id": "cfa86e0b-f8bb-4888-a321-afd470c8bd5d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "53b4cdd9-a527-4c8b-9cb0-303ae8d32c56",
+        "date": "2023-09-03T22:46:52.905Z",
+        "type": "Specialist consultation",
+        "description": "Cardiology referral",
+        "created_at": "2023-09-03T16:33:50.692Z",
+        "updated_at": "2023-09-04T06:18:58.123Z",
+        "patient_id": "700588ee-7205-48d6-af1b-16fc2c8a2253",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a9f2d5f2-cede-469e-9819-b29e10aea04e",
+        "date": "2023-09-03T13:49:35.511Z",
+        "type": "Surgery",
+        "description": "Appendectomy",
+        "created_at": "2023-09-04T13:00:58.782Z",
+        "updated_at": "2023-09-03T16:18:38.523Z",
+        "patient_id": "cfa86e0b-f8bb-4888-a321-afd470c8bd5d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d0a9b11c-f992-4e27-85f2-997ad4b4feb8",
+        "email": "Shawn_Ledner77@gmail.com",
+        "firstName": "Cassidy",
+        "lastName": "Hilpert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/52768335",
+        "tenantId": null
+      },
+      {
+        "reference": "7e5d3a5b-670c-4786-8aef-dcfc5ed93029",
+        "email": "Isac_Dickens12@gmail.com",
+        "firstName": "Cody",
+        "lastName": "Volkman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/564.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "53bff8ce-5948-49ac-959e-b2d9e0f7e6a5",
+        "email": "Doyle55@yahoo.com",
+        "firstName": "Devin",
+        "lastName": "Corwin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/218.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ad358135-d437-4145-8089-b2b9009c2121",
+        "email": "Rhianna40@yahoo.com",
+        "firstName": "Dock",
+        "lastName": "Renner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/778.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "854fb71f-5386-43d4-80ce-ae57e00577d0",
+        "email": "Rachelle64@yahoo.com",
+        "firstName": "Adonis",
+        "lastName": "Frami",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/816.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "patient": [
+      {
+        "id": "295daefa-494c-4f22-8353-8852268422a6",
+        "first_name": "Emily",
+        "last_name": "Anderson",
+        "dob": "2023-09-03T15:42:38.142Z",
+        "gender": "Female",
+        "address": "123 Main St",
+        "phone": "555-1234",
+        "created_at": "2023-09-04T01:13:24.348Z",
+        "updated_at": "2023-09-04T07:19:19.902Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c3f5e0b6-aea0-49e8-8c0a-8af030e073a0",
+        "first_name": "Daniel",
+        "last_name": "Clark",
+        "dob": "2023-09-04T04:05:54.922Z",
+        "gender": "Male",
+        "address": "456 Elm St",
+        "phone": "555-5678",
+        "created_at": "2023-09-04T00:22:52.215Z",
+        "updated_at": "2023-09-04T06:28:39.560Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "48b28345-44ba-4a6a-be68-899d99e22929",
+        "first_name": "Sophia",
+        "last_name": "Garcia",
+        "dob": "2023-09-04T10:09:28.007Z",
+        "gender": "Female",
+        "address": "789 Oak Ave",
+        "phone": "555-9012",
+        "created_at": "2023-09-04T10:42:57.196Z",
+        "updated_at": "2023-09-04T12:45:07.396Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "949cf33a-32e0-4f7d-9626-1e9cc17c0e8a",
+        "first_name": "Benjamin",
+        "last_name": "Lewis",
+        "dob": "2023-09-03T22:25:39.147Z",
+        "gender": "Male",
+        "address": "321 Maple Rd",
+        "phone": "555-3456",
+        "created_at": "2023-09-03T17:27:04.806Z",
+        "updated_at": "2023-09-03T20:05:51.326Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b1a4502b-7ee8-419a-ac4b-6ebe78dbad2f",
+        "first_name": "Olivia",
+        "last_name": "Taylor",
+        "dob": "2023-09-03T20:16:52.021Z",
+        "gender": "Female",
+        "address": "654 Pine Ln",
+        "phone": "555-7890",
+        "created_at": "2023-09-03T16:58:01.934Z",
+        "updated_at": "2023-09-03T21:32:10.442Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "observation": [
+      {
+        "id": "1875d90d-c997-4050-b59e-dfb991c3115d",
+        "type": "Blood pressure",
+        "result": "120/80 mmHg",
+        "date": "2023-09-04T12:42:42.068Z",
+        "created_at": "2023-09-04T09:33:07.439Z",
+        "updated_at": "2023-09-03T21:18:12.139Z",
+        "patient_id": "949cf33a-32e0-4f7d-9626-1e9cc17c0e8a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eefe6c64-0960-457f-b424-f90c888a07b4",
+        "type": "Temperature",
+        "result": "98.6°F",
+        "date": "2023-09-04T02:48:43.500Z",
+        "created_at": "2023-09-03T20:41:08.171Z",
+        "updated_at": "2023-09-03T15:41:36.985Z",
+        "patient_id": "c3f5e0b6-aea0-49e8-8c0a-8af030e073a0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "448f1284-93a5-4dd3-b40f-dac0e9aa0ec9",
+        "type": "Heart rate",
+        "result": "72 bpm",
+        "date": "2023-09-03T22:17:00.305Z",
+        "created_at": "2023-09-04T07:53:14.118Z",
+        "updated_at": "2023-09-03T19:44:53.339Z",
+        "patient_id": "48b28345-44ba-4a6a-be68-899d99e22929",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2cb73568-f50f-4b0e-9df5-dceb93a4357a",
+        "type": "Cholesterol level",
+        "result": "200 mg/dL",
+        "date": "2023-09-04T01:05:54.713Z",
+        "created_at": "2023-09-04T03:13:04.805Z",
+        "updated_at": "2023-09-04T11:25:29.939Z",
+        "patient_id": "b1a4502b-7ee8-419a-ac4b-6ebe78dbad2f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "56d7f4ed-87b3-4979-9206-7db2191d9ff1",
+        "type": "Oxygen saturation",
+        "result": "95%",
+        "date": "2023-09-03T20:02:47.361Z",
+        "created_at": "2023-09-04T12:57:24.378Z",
+        "updated_at": "2023-09-03T17:53:08.052Z",
+        "patient_id": "b1a4502b-7ee8-419a-ac4b-6ebe78dbad2f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "medication": [
+      {
+        "id": "80c797f9-2f7a-4add-bde5-e2d5217899e3",
+        "name": "Aspirin",
+        "dosage": "500 mg",
+        "instructions": "Take once daily",
+        "dispensing_details": "30 tablets",
+        "created_at": "2023-09-04T08:40:36.396Z",
+        "updated_at": "2023-09-04T03:35:02.109Z",
+        "patient_id": "c3f5e0b6-aea0-49e8-8c0a-8af030e073a0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b6db0022-ce5c-4484-836a-ae6ee473da01",
+        "name": "Ibuprofen",
+        "dosage": "200 mg",
+        "instructions": "Take every 6 hours",
+        "dispensing_details": "60 tablets",
+        "created_at": "2023-09-03T15:15:02.820Z",
+        "updated_at": "2023-09-04T12:13:20.752Z",
+        "patient_id": "48b28345-44ba-4a6a-be68-899d99e22929",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "39a029c8-0ac4-43f4-b930-b15da7a0cba2",
+        "name": "Acetaminophen",
+        "dosage": "650 mg",
+        "instructions": "Take with food",
+        "dispensing_details": "90 tablets",
+        "created_at": "2023-09-04T00:40:41.456Z",
+        "updated_at": "2023-09-04T02:41:05.964Z",
+        "patient_id": "295daefa-494c-4f22-8353-8852268422a6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a52006aa-087f-4a46-ab99-e8fcb5eb48f0",
+        "name": "Lisinopril",
+        "dosage": "10 mg",
+        "instructions": "Take before bedtime",
+        "dispensing_details": "120 tablets",
+        "created_at": "2023-09-04T09:08:48.150Z",
+        "updated_at": "2023-09-03T16:59:11.463Z",
+        "patient_id": "48b28345-44ba-4a6a-be68-899d99e22929",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fe136168-561d-4501-a2b7-99aaa60c61ac",
+        "name": "Simvastatin",
+        "dosage": "20 mg",
+        "instructions": "Take with plenty of water",
+        "dispensing_details": "180 tablets",
+        "created_at": "2023-09-04T11:50:16.102Z",
+        "updated_at": "2023-09-04T11:59:26.907Z",
+        "patient_id": "c3f5e0b6-aea0-49e8-8c0a-8af030e073a0",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "encounter": [
+      {
+        "id": "816dcaed-e4bc-4629-9603-1460cd147d2d",
+        "date": "2023-09-03T20:13:00.591Z",
+        "type": "Consultation",
+        "description": "Discussing treatment options",
+        "created_at": "2023-09-03T23:31:54.355Z",
+        "updated_at": "2023-09-03T23:11:22.272Z",
+        "patient_id": "48b28345-44ba-4a6a-be68-899d99e22929",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "13015dc7-952b-4106-b963-e5a2a1351a50",
+        "date": "2023-09-04T07:53:23.028Z",
+        "type": "Follow-up",
+        "description": "Reviewing test results",
+        "created_at": "2023-09-03T22:56:16.858Z",
+        "updated_at": "2023-09-04T11:52:21.358Z",
+        "patient_id": "b1a4502b-7ee8-419a-ac4b-6ebe78dbad2f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "caf648f2-5bce-457b-a377-e94c16f12398",
+        "date": "2023-09-04T06:39:34.010Z",
+        "type": "Emergency",
+        "description": "Treating a severe injury",
+        "created_at": "2023-09-03T17:34:16.751Z",
+        "updated_at": "2023-09-04T09:59:57.760Z",
+        "patient_id": "295daefa-494c-4f22-8353-8852268422a6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e24924b1-87f4-4669-86b1-4f04ef1644a0",
+        "date": "2023-09-03T23:13:59.720Z",
+        "type": "Routine check-up",
+        "description": "Performing a physical examination",
+        "created_at": "2023-09-03T17:02:52.330Z",
+        "updated_at": "2023-09-04T10:08:21.169Z",
+        "patient_id": "b1a4502b-7ee8-419a-ac4b-6ebe78dbad2f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b6b2aabc-1df5-4f17-8b23-27bbf3061eed",
+        "date": "2023-09-03T19:38:24.449Z",
+        "type": "Surgery",
+        "description": "Performing a surgical procedure",
+        "created_at": "2023-09-03T18:21:52.907Z",
+        "updated_at": "2023-09-04T08:32:18.178Z",
+        "patient_id": "c3f5e0b6-aea0-49e8-8c0a-8af030e073a0",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "bf67c02d-0d4b-47cb-bb28-648c6031fef0",
+        "email": "Marilou.Reinger@yahoo.com",
+        "firstName": "Hertha",
+        "lastName": "Schimmel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28901516",
+        "tenantId": null
+      },
+      {
+        "reference": "93667d06-6db3-4608-9820-38ea54bb7a0d",
+        "email": "Bradly_Wehner25@hotmail.com",
+        "firstName": "Jessie",
+        "lastName": "Reinger",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/47174955",
+        "tenantId": null
+      },
+      {
+        "reference": "89aef8ce-391b-4ec5-9673-cbf70f201d48",
+        "email": "Jacky_Paucek@hotmail.com",
+        "firstName": "Marty",
+        "lastName": "Spencer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/646.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cc492d91-183e-4528-b099-befe4d3a550e",
+        "email": "Anibal29@yahoo.com",
+        "firstName": "Rosalinda",
+        "lastName": "Bergnaum",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46099062",
+        "tenantId": null
+      },
+      {
+        "reference": "1ff5968f-f0c5-4993-bd12-8ddb1b2bb6b7",
+        "email": "Erwin_Kling49@gmail.com",
+        "firstName": "Rod",
+        "lastName": "Cole",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/362.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "patient": [
+      {
+        "id": "97168664-115d-4879-98b4-d384d3c4ceba",
+        "first_name": "Alice",
+        "last_name": "Johnson",
+        "dob": "2023-09-03T19:36:06.636Z",
+        "gender": "Female",
+        "address": "123 Main St",
+        "phone": "555-1234",
+        "created_at": "2023-09-04T08:14:31.410Z",
+        "updated_at": "2023-09-03T20:15:20.649Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "60a3cb43-b95b-48f5-bca1-2e393cc883b2",
+        "first_name": "Bob",
+        "last_name": "Smith",
+        "dob": "2023-09-03T17:50:49.286Z",
+        "gender": "Male",
+        "address": "456 Elm St",
+        "phone": "555-5678",
+        "created_at": "2023-09-03T13:49:43.608Z",
+        "updated_at": "2023-09-03T18:47:09.681Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "da3cb4b3-9657-418b-ad80-25b55abb852d",
+        "first_name": "Eva",
+        "last_name": "Williams",
+        "dob": "2023-09-04T11:53:07.384Z",
+        "gender": "Female",
+        "address": "789 Oak Ave",
+        "phone": "555-9012",
+        "created_at": "2023-09-04T07:46:19.000Z",
+        "updated_at": "2023-09-04T03:32:24.926Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d3c50072-e03d-4d34-ae5a-4b9000273b1d",
+        "first_name": "Daniel",
+        "last_name": "Brown",
+        "dob": "2023-09-03T21:14:26.434Z",
+        "gender": "Male",
+        "address": "321 Pine Rd",
+        "phone": "555-3456",
+        "created_at": "2023-09-03T19:39:13.574Z",
+        "updated_at": "2023-09-04T03:42:15.953Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "14f7f0f8-5378-43d7-a1c9-707382f1c028",
+        "first_name": "Olivia",
+        "last_name": "Taylor",
+        "dob": "2023-09-04T08:22:37.572Z",
+        "gender": "Female",
+        "address": "987 Maple Blvd",
+        "phone": "555-7890",
+        "created_at": "2023-09-03T23:36:07.997Z",
+        "updated_at": "2023-09-03T18:09:07.371Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "observation": [
+      {
+        "id": "071233c3-4724-4dc8-be4f-53b793908596",
+        "type": "Blood pressure",
+        "result": "120/80 mmHg",
+        "date": "2023-09-03T23:02:05.005Z",
+        "created_at": "2023-09-04T02:55:01.771Z",
+        "updated_at": "2023-09-04T04:06:29.994Z",
+        "patient_id": "14f7f0f8-5378-43d7-a1c9-707382f1c028",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5a2e751e-d61a-4006-8f36-bb3ed37d171e",
+        "type": "Temperature",
+        "result": "98.6°F",
+        "date": "2023-09-04T08:48:40.439Z",
+        "created_at": "2023-09-03T17:40:46.550Z",
+        "updated_at": "2023-09-04T10:40:36.006Z",
+        "patient_id": "d3c50072-e03d-4d34-ae5a-4b9000273b1d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "38d98927-45d4-4665-8dfb-7ac15492fab6",
+        "type": "Heart rate",
+        "result": "70 bpm",
+        "date": "2023-09-04T11:37:50.399Z",
+        "created_at": "2023-09-04T10:02:54.268Z",
+        "updated_at": "2023-09-04T10:12:58.459Z",
+        "patient_id": "14f7f0f8-5378-43d7-a1c9-707382f1c028",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9c799d20-1237-44eb-b193-5c125df035c0",
+        "type": "Cholesterol level",
+        "result": "180 mg/dL",
+        "date": "2023-09-04T03:15:29.227Z",
+        "created_at": "2023-09-04T05:02:21.415Z",
+        "updated_at": "2023-09-03T21:23:53.929Z",
+        "patient_id": "da3cb4b3-9657-418b-ad80-25b55abb852d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "20dbe0d5-af89-419c-97c5-964efe326132",
+        "type": "Glucose level",
+        "result": "100 mg/dL",
+        "date": "2023-09-04T12:34:49.631Z",
+        "created_at": "2023-09-04T11:53:29.668Z",
+        "updated_at": "2023-09-03T15:48:23.536Z",
+        "patient_id": "da3cb4b3-9657-418b-ad80-25b55abb852d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "medication": [
+      {
+        "id": "7d998e12-8963-46da-bbee-ff904079188a",
+        "name": "Aspirin",
+        "dosage": "500 mg",
+        "instructions": "Take once daily",
+        "dispensing_details": "30 tablets",
+        "created_at": "2023-09-03T17:46:11.103Z",
+        "updated_at": "2023-09-03T15:27:44.441Z",
+        "patient_id": "97168664-115d-4879-98b4-d384d3c4ceba",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fb2d5247-a4c5-49dc-baa2-c6cbf9301889",
+        "name": "Ibuprofen",
+        "dosage": "200 mg",
+        "instructions": "Take every 4 hours",
+        "dispensing_details": "20 capsules",
+        "created_at": "2023-09-03T18:31:55.280Z",
+        "updated_at": "2023-09-04T00:18:47.194Z",
+        "patient_id": "d3c50072-e03d-4d34-ae5a-4b9000273b1d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1d135cc8-51f1-4527-a2c9-693ce28c7434",
+        "name": "Acetaminophen",
+        "dosage": "650 mg",
+        "instructions": "Take with food",
+        "dispensing_details": "60 mL suspension",
+        "created_at": "2023-09-04T02:51:13.900Z",
+        "updated_at": "2023-09-03T18:14:11.344Z",
+        "patient_id": "d3c50072-e03d-4d34-ae5a-4b9000273b1d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6f72eacc-d986-426f-9e9d-d18084e9b097",
+        "name": "Amoxicillin",
+        "dosage": "250 mg",
+        "instructions": "Take twice daily",
+        "dispensing_details": "10 vials",
+        "created_at": "2023-09-04T07:15:43.770Z",
+        "updated_at": "2023-09-04T01:55:12.715Z",
+        "patient_id": "da3cb4b3-9657-418b-ad80-25b55abb852d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ac56abd2-648f-488a-b40d-e98feba13b9c",
+        "name": "Lisinopril",
+        "dosage": "10 mg",
+        "instructions": "Take before bedtime",
+        "dispensing_details": "90 tablets",
+        "created_at": "2023-09-04T11:45:09.616Z",
+        "updated_at": "2023-09-04T08:35:24.741Z",
+        "patient_id": "97168664-115d-4879-98b4-d384d3c4ceba",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "encounter": [
+      {
+        "id": "e10c5fa4-50ea-4f0e-9e7e-c21fcad3520c",
+        "date": "2023-09-04T00:29:15.939Z",
+        "type": "Consultation",
+        "description": "Discussing symptoms",
+        "created_at": "2023-09-04T06:28:10.725Z",
+        "updated_at": "2023-09-04T08:33:57.516Z",
+        "patient_id": "14f7f0f8-5378-43d7-a1c9-707382f1c028",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8b0255fe-f05b-4ad3-a25a-01937f9acf55",
+        "date": "2023-09-03T17:25:41.327Z",
+        "type": "Follow-up",
+        "description": "Reviewing test results",
+        "created_at": "2023-09-03T19:42:36.441Z",
+        "updated_at": "2023-09-04T07:02:55.287Z",
+        "patient_id": "97168664-115d-4879-98b4-d384d3c4ceba",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "168a56fe-7d80-4d67-bbcb-f2a3f5ad371c",
+        "date": "2023-09-04T02:17:35.636Z",
+        "type": "Emergency",
+        "description": "Treating injury",
+        "created_at": "2023-09-03T21:24:35.803Z",
+        "updated_at": "2023-09-04T03:46:39.008Z",
+        "patient_id": "d3c50072-e03d-4d34-ae5a-4b9000273b1d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a9392b6a-6419-4275-8812-1956f6f48e90",
+        "date": "2023-09-03T14:41:20.707Z",
+        "type": "Routine check-up",
+        "description": "General examination",
+        "created_at": "2023-09-04T11:49:52.941Z",
+        "updated_at": "2023-09-04T05:39:26.968Z",
+        "patient_id": "97168664-115d-4879-98b4-d384d3c4ceba",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "81920268-e241-4264-8dbe-ea73c1e133f3",
+        "date": "2023-09-04T07:45:03.301Z",
+        "type": "Surgery",
+        "description": "Performing operation",
+        "created_at": "2023-09-04T11:17:27.625Z",
+        "updated_at": "2023-09-03T15:52:40.651Z",
+        "patient_id": "14f7f0f8-5378-43d7-a1c9-707382f1c028",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8ca37872-67a1-488c-b3ae-e11b8cb63fe1",
+        "email": "Raoul65@hotmail.com",
+        "firstName": "Rory",
+        "lastName": "Okuneva",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/347.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ce6cebe5-33c5-48fb-bb2d-cac084a20460",
+        "email": "Alessia63@gmail.com",
+        "firstName": "Alek",
+        "lastName": "Beahan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/203.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "24f71bac-84b4-4061-94e1-1a69f2b6e96b",
+        "email": "Reynold_Kuvalis42@hotmail.com",
+        "firstName": "Michael",
+        "lastName": "Kemmer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/139.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d96a5201-0fa7-4e18-80bc-d8482662665d",
+        "email": "Keven35@gmail.com",
+        "firstName": "Samanta",
+        "lastName": "Welch",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/24748395",
+        "tenantId": null
+      },
+      {
+        "reference": "48df042e-cbae-4c0a-a27c-9b8cdd4c9551",
+        "email": "Jaylin9@gmail.com",
+        "firstName": "Elvis",
+        "lastName": "Quigley",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/79.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "patient": [
+      {
+        "id": "23ae06f0-3661-468c-962a-81fbb73de6a5",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "dob": "2023-09-04T01:49:50.508Z",
+        "gender": "Female",
+        "address": "123 Main St",
+        "phone": "123-456-7890",
+        "created_at": "2023-09-03T19:52:10.489Z",
+        "updated_at": "2023-09-03T16:56:22.185Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6b7b88df-2a78-497d-93a5-a4d3d65e32c5",
+        "first_name": "Daniel",
+        "last_name": "Anderson",
+        "dob": "2023-09-03T23:34:38.827Z",
+        "gender": "Male",
+        "address": "456 Elm St",
+        "phone": "987-654-3210",
+        "created_at": "2023-09-04T01:07:22.488Z",
+        "updated_at": "2023-09-04T01:57:25.439Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a8ff38ca-aed0-4f9d-94cf-1c1a67d6f937",
+        "first_name": "Olivia",
+        "last_name": "Smith",
+        "dob": "2023-09-03T21:52:48.484Z",
+        "gender": "Female",
+        "address": "789 Oak St",
+        "phone": "555-123-4567",
+        "created_at": "2023-09-04T07:34:45.630Z",
+        "updated_at": "2023-09-04T09:01:00.895Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "856d7c74-2364-4f75-98de-25ea82e924ce",
+        "first_name": "Jacob",
+        "last_name": "Williams",
+        "dob": "2023-09-04T08:31:29.833Z",
+        "gender": "Male",
+        "address": "321 Maple St",
+        "phone": "888-999-0000",
+        "created_at": "2023-09-04T07:30:00.884Z",
+        "updated_at": "2023-09-04T02:06:09.769Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b4dd9efd-1085-4d4b-9602-653de6f5bf50",
+        "first_name": "Sophia",
+        "last_name": "Brown",
+        "dob": "2023-09-04T03:02:44.744Z",
+        "gender": "Female",
+        "address": "654 Pine St",
+        "phone": "777-222-3333",
+        "created_at": "2023-09-04T09:19:18.964Z",
+        "updated_at": "2023-09-04T07:09:33.987Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "observation": [
+      {
+        "id": "07338861-4419-474f-bbd2-c636ba036c62",
+        "type": "Blood Pressure",
+        "result": "120/80 mmHg",
+        "date": "2023-09-03T22:05:22.187Z",
+        "created_at": "2023-09-03T16:51:21.598Z",
+        "updated_at": "2023-09-04T04:46:20.343Z",
+        "patient_id": "a8ff38ca-aed0-4f9d-94cf-1c1a67d6f937",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "deed8190-824a-42ff-80ff-2a6518804d2e",
+        "type": "Heart Rate",
+        "result": "70 bpm",
+        "date": "2023-09-03T21:05:57.262Z",
+        "created_at": "2023-09-04T01:11:40.857Z",
+        "updated_at": "2023-09-03T16:02:07.309Z",
+        "patient_id": "23ae06f0-3661-468c-962a-81fbb73de6a5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "209af746-0b50-48cf-8469-1f0f4ed4bd64",
+        "type": "Temperature",
+        "result": "98.6°F",
+        "date": "2023-09-03T22:54:15.981Z",
+        "created_at": "2023-09-04T05:45:16.289Z",
+        "updated_at": "2023-09-03T17:09:51.472Z",
+        "patient_id": "6b7b88df-2a78-497d-93a5-a4d3d65e32c5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ef1f57d9-1f7b-4b51-9190-97dd19596ac1",
+        "type": "Cholesterol Level",
+        "result": "200 mg/dL",
+        "date": "2023-09-03T19:13:53.526Z",
+        "created_at": "2023-09-04T09:35:50.388Z",
+        "updated_at": "2023-09-03T17:40:46.429Z",
+        "patient_id": "b4dd9efd-1085-4d4b-9602-653de6f5bf50",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "086617b8-6e30-443f-b270-308c0463f267",
+        "type": "Blood Sugar Level",
+        "result": "100 mg/dL",
+        "date": "2023-09-03T14:16:31.572Z",
+        "created_at": "2023-09-04T07:40:14.475Z",
+        "updated_at": "2023-09-04T07:25:06.483Z",
+        "patient_id": "23ae06f0-3661-468c-962a-81fbb73de6a5",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "medication": [
+      {
+        "id": "0345b8c8-84ea-4a73-9ff5-0d201326b0be",
+        "name": "Aspirin",
+        "dosage": "500 mg",
+        "instructions": "Take once daily",
+        "dispensing_details": "30 tablets",
+        "created_at": "2023-09-04T00:29:20.030Z",
+        "updated_at": "2023-09-03T18:08:06.791Z",
+        "patient_id": "856d7c74-2364-4f75-98de-25ea82e924ce",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "372ce7d3-8014-4aae-9e93-6b120e5443de",
+        "name": "Ibuprofen",
+        "dosage": "200 mg",
+        "instructions": "Take every 6 hours",
+        "dispensing_details": "60 capsules",
+        "created_at": "2023-09-04T04:50:55.465Z",
+        "updated_at": "2023-09-04T12:27:31.273Z",
+        "patient_id": "a8ff38ca-aed0-4f9d-94cf-1c1a67d6f937",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7da47d63-55e7-441b-9410-397f5357521a",
+        "name": "Acetaminophen",
+        "dosage": "1000 mg",
+        "instructions": "Take with food",
+        "dispensing_details": "90 tablets",
+        "created_at": "2023-09-04T10:46:32.352Z",
+        "updated_at": "2023-09-04T03:20:58.006Z",
+        "patient_id": "b4dd9efd-1085-4d4b-9602-653de6f5bf50",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fa0a5f44-3497-4dc2-b05d-0312376be270",
+        "name": "Lisinopril",
+        "dosage": "10 mg",
+        "instructions": "Take on an empty stomach",
+        "dispensing_details": "120 mL",
+        "created_at": "2023-09-03T16:55:02.848Z",
+        "updated_at": "2023-09-03T16:07:57.297Z",
+        "patient_id": "856d7c74-2364-4f75-98de-25ea82e924ce",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dd503b64-3657-4718-b476-878107c72f67",
+        "name": "Simvastatin",
+        "dosage": "20 mg",
+        "instructions": "Take before bedtime",
+        "dispensing_details": "15 patches",
+        "created_at": "2023-09-04T03:26:38.577Z",
+        "updated_at": "2023-09-03T14:28:32.197Z",
+        "patient_id": "6b7b88df-2a78-497d-93a5-a4d3d65e32c5",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "encounter": [
+      {
+        "id": "686990e1-5aa7-4aec-8235-4cc0f7370dd5",
+        "date": "2023-09-03T17:19:02.072Z",
+        "type": "Routine Checkup",
+        "description": "Annual physical examination",
+        "created_at": "2023-09-03T14:41:32.266Z",
+        "updated_at": "2023-09-03T18:14:54.484Z",
+        "patient_id": "856d7c74-2364-4f75-98de-25ea82e924ce",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d4cb6882-ca7a-4c02-8305-a77ddbf7e2d5",
+        "date": "2023-09-03T13:31:37.065Z",
+        "type": "Follow-up Appointment",
+        "description": "Discuss test results",
+        "created_at": "2023-09-04T07:52:16.507Z",
+        "updated_at": "2023-09-04T04:55:22.417Z",
+        "patient_id": "b4dd9efd-1085-4d4b-9602-653de6f5bf50",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6fd156b4-075a-44d0-91ac-265f047d2e67",
+        "date": "2023-09-03T22:41:07.593Z",
+        "type": "Emergency Visit",
+        "description": "Severe injury",
+        "created_at": "2023-09-03T17:35:11.561Z",
+        "updated_at": "2023-09-04T10:50:33.533Z",
+        "patient_id": "6b7b88df-2a78-497d-93a5-a4d3d65e32c5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4e6fc57f-398a-416c-b1ca-2602dac7e5af",
+        "date": "2023-09-03T21:15:30.302Z",
+        "type": "Specialist Consultation",
+        "description": "Neurologist appointment",
+        "created_at": "2023-09-03T14:51:11.826Z",
+        "updated_at": "2023-09-03T17:45:45.748Z",
+        "patient_id": "b4dd9efd-1085-4d4b-9602-653de6f5bf50",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7c4851cf-c77d-4098-a0bc-354874756f59",
+        "date": "2023-09-04T01:05:35.343Z",
+        "type": "Surgery",
+        "description": "Appendectomy",
+        "created_at": "2023-09-04T03:09:43.323Z",
+        "updated_at": "2023-09-03T20:37:24.706Z",
+        "patient_id": "856d7c74-2364-4f75-98de-25ea82e924ce",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "5877a27f-5995-4e59-839c-9df2df45a157",
+        "email": "Bobbie79@hotmail.com",
+        "firstName": "Anika",
+        "lastName": "Mertz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46458960",
+        "tenantId": null
+      },
+      {
+        "reference": "c9f0a00b-1d34-4351-ad2e-5f809b3af70f",
+        "email": "Effie.Kessler@hotmail.com",
+        "firstName": "Courtney",
+        "lastName": "Hermann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/504.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "042bdbb7-ada2-4ac8-86e8-57a6f04426a5",
+        "email": "Krystal.Von65@yahoo.com",
+        "firstName": "Katheryn",
+        "lastName": "O'Hara",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1217.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8d459f69-edf7-4bb1-ae58-1243c0cf54a1",
+        "email": "Michelle_Rogahn45@gmail.com",
+        "firstName": "Jannie",
+        "lastName": "Lockman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42044525",
+        "tenantId": null
+      },
+      {
+        "reference": "d3e0ae5f-fae5-4d7d-871e-64719c4b0fd6",
+        "email": "Desmond35@gmail.com",
+        "firstName": "Rusty",
+        "lastName": "Veum",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/94402667",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "patient": [
+      {
+        "id": "1739deb7-49ad-4bfe-8e7f-7de43fd9573d",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "dob": "2023-09-03T20:14:05.835Z",
+        "gender": "Female",
+        "address": "123 Main St",
+        "phone": "555-1234",
+        "created_at": "2023-09-04T04:38:05.961Z",
+        "updated_at": "2023-09-03T16:40:09.028Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "21f862b0-be49-434a-aac3-67fe652a624f",
+        "first_name": "David",
+        "last_name": "Smith",
+        "dob": "2023-09-04T03:43:08.079Z",
+        "gender": "Male",
+        "address": "456 Elm St",
+        "phone": "555-5678",
+        "created_at": "2023-09-03T19:44:17.143Z",
+        "updated_at": "2023-09-03T19:44:29.190Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "30683a04-9a5c-4803-a288-cc02485a7c30",
+        "first_name": "Sophia",
+        "last_name": "Brown",
+        "dob": "2023-09-03T18:31:26.510Z",
+        "gender": "Female",
+        "address": "789 Oak Ave",
+        "phone": "555-9012",
+        "created_at": "2023-09-03T23:21:07.607Z",
+        "updated_at": "2023-09-04T02:58:29.296Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "03a6a60c-73f9-4e95-8d49-6453d7fbeb7d",
+        "first_name": "Michael",
+        "last_name": "Davis",
+        "dob": "2023-09-04T12:56:34.161Z",
+        "gender": "Male",
+        "address": "321 Pine Rd",
+        "phone": "555-3456",
+        "created_at": "2023-09-04T02:29:40.664Z",
+        "updated_at": "2023-09-03T16:14:03.365Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3157dae5-8072-48c6-a52e-f4564ead5726",
+        "first_name": "Olivia",
+        "last_name": "Wilson",
+        "dob": "2023-09-04T02:59:17.840Z",
+        "gender": "Female",
+        "address": "654 Maple Blvd",
+        "phone": "555-7890",
+        "created_at": "2023-09-03T18:48:26.822Z",
+        "updated_at": "2023-09-03T14:05:04.072Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "observation": [
+      {
+        "id": "89b3f1e8-3e0f-49b0-95b9-500c74629ab0",
+        "type": "Blood pressure",
+        "result": "120/80 mmHg",
+        "date": "2023-09-03T22:36:04.415Z",
+        "created_at": "2023-09-04T00:48:39.877Z",
+        "updated_at": "2023-09-04T09:45:17.881Z",
+        "patient_id": "1739deb7-49ad-4bfe-8e7f-7de43fd9573d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "df7ac14f-aef1-49fb-9169-227f042db22c",
+        "type": "Temperature",
+        "result": "98.6°F",
+        "date": "2023-09-04T04:17:01.856Z",
+        "created_at": "2023-09-04T11:03:03.668Z",
+        "updated_at": "2023-09-04T07:21:05.117Z",
+        "patient_id": "21f862b0-be49-434a-aac3-67fe652a624f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a9ab1347-0683-456a-b0c0-894e2c9bf99b",
+        "type": "Heart rate",
+        "result": "72 bpm",
+        "date": "2023-09-04T09:59:32.547Z",
+        "created_at": "2023-09-04T01:23:38.417Z",
+        "updated_at": "2023-09-04T06:47:48.542Z",
+        "patient_id": "1739deb7-49ad-4bfe-8e7f-7de43fd9573d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "008f964b-4689-45b9-9340-5253816d6430",
+        "type": "Cholesterol level",
+        "result": "200 mg/dL",
+        "date": "2023-09-04T02:04:17.036Z",
+        "created_at": "2023-09-03T23:57:13.303Z",
+        "updated_at": "2023-09-04T10:37:47.348Z",
+        "patient_id": "30683a04-9a5c-4803-a288-cc02485a7c30",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "18a21752-02b0-4d5f-93dc-ded15c3be032",
+        "type": "Blood sugar level",
+        "result": "110 mg/dL",
+        "date": "2023-09-04T07:27:27.809Z",
+        "created_at": "2023-09-03T20:59:28.292Z",
+        "updated_at": "2023-09-04T01:35:17.939Z",
+        "patient_id": "03a6a60c-73f9-4e95-8d49-6453d7fbeb7d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "medication": [
+      {
+        "id": "13348a7f-010c-46c7-b97c-f113854cf3bf",
+        "name": "Aspirin",
+        "dosage": "500 mg",
+        "instructions": "Take once daily",
+        "dispensing_details": "30 tablets",
+        "created_at": "2023-09-03T23:32:42.178Z",
+        "updated_at": "2023-09-04T03:23:56.120Z",
+        "patient_id": "1739deb7-49ad-4bfe-8e7f-7de43fd9573d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "74d8d4ff-897e-49b9-8670-b8be596d7f9c",
+        "name": "Ibuprofen",
+        "dosage": "200 mg",
+        "instructions": "Take every 6 hours",
+        "dispensing_details": "60 capsules",
+        "created_at": "2023-09-03T23:40:06.951Z",
+        "updated_at": "2023-09-03T14:07:44.075Z",
+        "patient_id": "1739deb7-49ad-4bfe-8e7f-7de43fd9573d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4fddb63e-f422-4e7e-a0d9-290eec4f4771",
+        "name": "Acetaminophen",
+        "dosage": "325 mg",
+        "instructions": "Take with food",
+        "dispensing_details": "90 tablets",
+        "created_at": "2023-09-04T13:07:06.181Z",
+        "updated_at": "2023-09-03T23:57:52.470Z",
+        "patient_id": "03a6a60c-73f9-4e95-8d49-6453d7fbeb7d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7cfebbff-03a2-490d-99b2-47bc24fc3e0f",
+        "name": "Lisinopril",
+        "dosage": "10 mg",
+        "instructions": "Take on an empty stomach",
+        "dispensing_details": "120 tablets",
+        "created_at": "2023-09-04T00:18:15.157Z",
+        "updated_at": "2023-09-03T19:53:19.156Z",
+        "patient_id": "21f862b0-be49-434a-aac3-67fe652a624f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4c4da12b-877f-4308-9ee6-f86e35c788ec",
+        "name": "Simvastatin",
+        "dosage": "20 mg",
+        "instructions": "Take before bedtime",
+        "dispensing_details": "180 capsules",
+        "created_at": "2023-09-03T21:52:02.822Z",
+        "updated_at": "2023-09-03T17:12:37.203Z",
+        "patient_id": "30683a04-9a5c-4803-a288-cc02485a7c30",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "encounter": [
+      {
+        "id": "eaf2e068-dcd9-4670-92f0-81cf86108e53",
+        "date": "2023-09-03T13:52:59.396Z",
+        "type": "Routine check-up",
+        "description": "Annual physical examination",
+        "created_at": "2023-09-04T03:40:53.992Z",
+        "updated_at": "2023-09-04T00:00:44.636Z",
+        "patient_id": "3157dae5-8072-48c6-a52e-f4564ead5726",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "25a4e05a-66be-45e2-b29b-0385cbddc626",
+        "date": "2023-09-03T18:08:20.218Z",
+        "type": "Emergency visit",
+        "description": "Severe injury",
+        "created_at": "2023-09-03T20:59:59.521Z",
+        "updated_at": "2023-09-04T05:59:24.581Z",
+        "patient_id": "03a6a60c-73f9-4e95-8d49-6453d7fbeb7d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "056c8fc9-4d95-4c35-bfa8-8f1614a4d6b4",
+        "date": "2023-09-03T22:41:00.078Z",
+        "type": "Surgical procedure",
+        "description": "Appendectomy",
+        "created_at": "2023-09-04T10:14:03.132Z",
+        "updated_at": "2023-09-04T06:26:47.160Z",
+        "patient_id": "1739deb7-49ad-4bfe-8e7f-7de43fd9573d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "89936154-727f-4aa5-878b-bda0dc3d00e5",
+        "date": "2023-09-04T00:39:04.608Z",
+        "type": "Physical therapy session",
+        "description": "Rehabilitation for knee injury",
+        "created_at": "2023-09-03T14:25:13.670Z",
+        "updated_at": "2023-09-04T10:02:44.456Z",
+        "patient_id": "3157dae5-8072-48c6-a52e-f4564ead5726",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0b57278f-b7ba-411d-b733-1355f2a1c417",
+        "date": "2023-09-04T02:32:12.721Z",
+        "type": "Counseling session",
+        "description": "Mental health counseling",
+        "created_at": "2023-09-04T11:08:56.824Z",
+        "updated_at": "2023-09-04T00:01:36.953Z",
+        "patient_id": "30683a04-9a5c-4803-a288-cc02485a7c30",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "aeafebcc-ffa2-4cf4-997c-1c7b25664c15",
+        "email": "Mathias93@hotmail.com",
+        "firstName": "Pablo",
+        "lastName": "Howell-Johnson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/66124236",
+        "tenantId": null
+      },
+      {
+        "reference": "89afe5fb-edb1-4931-be48-1a459a1d8e38",
+        "email": "Malvina66@hotmail.com",
+        "firstName": "Makayla",
+        "lastName": "Wilderman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21058995",
+        "tenantId": null
+      },
+      {
+        "reference": "810765ef-1710-49d6-9c58-5c9787603c7c",
+        "email": "Bennett_Grant@yahoo.com",
+        "firstName": "Samir",
+        "lastName": "Wilderman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89058772",
+        "tenantId": null
+      },
+      {
+        "reference": "6ddb2c7a-57d0-425b-afde-d241026cd1b2",
+        "email": "Lowell_Durgan@gmail.com",
+        "firstName": "Aaliyah",
+        "lastName": "Shields",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25382787",
+        "tenantId": null
+      },
+      {
+        "reference": "376f5e19-0c42-45e1-8a0b-0b27dccf7f7f",
+        "email": "Jody_Hintz76@gmail.com",
+        "firstName": "Lucile",
+        "lastName": "Fisher",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1185.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
